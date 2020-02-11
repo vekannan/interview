@@ -14,7 +14,7 @@
           group1.map(group2 => 
             group2 *2))))
       </code>
-      <br/>
+      \n
        The above code results in <code>[[2,6],[6,8],[8,12]]</code>
       <br/>
       FlatMap: 
