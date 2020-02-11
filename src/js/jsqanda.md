@@ -5,7 +5,19 @@
       <b>New Feature</b>
     </div>
     <h2> Flat Map </h3>
-    <code>const arr3 = [[1,3],[3,4],[4,6]]
-      console.log(arr3.map(group1 => group1.map(group2 => group2 *2)))</code>
+      <div>
+        Regular Map:
+        <code>const arr3 = [[1,3],[3,4],[4,6]]
+        console.log(JSON.stringify(arr3.map(group1 => group1.map(group2 => group2 *2))))
+        </code>
+         The above code results in <code>[[2,6],[6,8],[8,12]]</code>
+        </br>
+        FlatMap: 
+        <code>
+          const arr1 = [[1,3],[3,4],[4,6]]
+          console.log(JSON.stringify(arr1.flatMap(group1 => group1.map(group2 => group2 *2))))
+        </code>
+        The above flatMap code results in <code>[2,6,6,8,8,12]</code>
+    </div>
   </body>
 </html>
