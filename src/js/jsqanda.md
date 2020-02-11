@@ -39,8 +39,8 @@
     Is result in [1,2,3,4,5,6]
     <br/>
     <h2> Object.formEntries </h2>
-    <code>const map = new Map([ ['foo', 'bar'], ['baz', 42] ]); \n
-    const obj = Object.fromEntries(map); \n
-    console.log(obj); // { foo: "bar", baz: 42 } \n </code>
+    <code>const map = new Map([ ['foo', 'bar'], ['baz', 42] ]); <br/>
+    const obj = Object.fromEntries(map); <br/>
+    console.log(obj); // { foo: "bar", baz: 42 } <br/></code>
   </body>
 </html>
