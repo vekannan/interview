@@ -6,7 +6,7 @@
     </div>
     <h2> Flat Map </h2>
     <div>
-      Regular Map: \n
+      Regular Map: /n
       <code>
       const arr3 = [[1,3],[3,4],[4,6]]
       console.log(JSON.stringify(
@@ -14,7 +14,7 @@
           group1.map(group2 => 
             group2 *2))))
       </code>
-      \n
+      /n
        The above code results in <code>[[2,6],[6,8],[8,12]]</code>
       <br/>
       FlatMap: 
