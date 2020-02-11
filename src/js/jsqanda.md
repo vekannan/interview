@@ -7,6 +7,7 @@
     <h2> Flat Map </h3>
       <div>
         Regular Map:
+        <br/>
         <code>
         const arr3 = [[1,3],[3,4],[4,6]]
         console.log(JSON.stringify(
