@@ -1,5 +1,13 @@
 <html>
+  <head>
+    <style>
+      .es2019 {
+        position:relative;
+      }
+    </style>
+  </head>
   <body>
+    <div class="es2019">
     <h1>ES2019</h2>
     <div>
       <b>New Feature</b>
@@ -41,5 +49,6 @@
     <code>const map = new Map([ ['foo', 'bar'], ['baz', 42] ]); <br/>
     const obj = Object.fromEntries(map); <br/>
     console.log(obj); // { foo: "bar", baz: 42 } <br/></code>
+    </div>
   </body>
 </html>
