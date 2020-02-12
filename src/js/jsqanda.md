@@ -3,9 +3,7 @@
   </head>
   <body>
     <div style="">
-      <div style="height:20px; width:20px; position: -webkit-sticky;
-  position: sticky;
-  top: 0;backgroundcolor:gray">
+      <div style="height:20px; width:20px; position: -webkit-sticky;position: sticky;top:0;backgroundcolor:gray">
         ES2019
       </div>
     <h1>ES2019</h2>
