@@ -1,7 +1,4 @@
-<html>
-  <head>
-  </head>
-  <body>
+
     <div style="position:relative;">
       <div style="float:right;backgroundcolor:green;color:black;position:fixed;top:20px;">
         ES2019
@@ -48,5 +45,3 @@
       const obj = Object.fromEntries(map); <br/>
       console.log(obj); // { foo: "bar", baz: 42 } <br/></code>
     </div>
-  </body>
-</html>
