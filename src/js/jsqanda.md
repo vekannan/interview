@@ -44,4 +44,4 @@
       <code>const map = new Map([ ['foo', 'bar'], ['baz', 42] ]); <br/>
       const obj = Object.fromEntries(map); <br/>
       console.log(obj); // { foo: "bar", baz: 42 } <br/></code>
-    </div><body>
+    </div></body>
