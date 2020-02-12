@@ -2,8 +2,8 @@
   <head>
   </head>
   <body>
-    <div style="display: flex;justify-content: space-around;align-items: flex-start;">
-      <div style="height:20px; width:20px; position: -webkit-sticky;position: sticky;top:0;backgroundcolor:gray;float:right">
+    <div style="position:relative">
+      <div style="float:right;backgroundcolor:green;color:black;position:fixed;">
         ES2019
       </div>
       <h1>ES2019</h2>
