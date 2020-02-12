@@ -3,10 +3,10 @@
   </head>
   <body>
     <div style="display: flex;justify-content: space-around;align-items: flex-start;">
-      <h1>ES2019</h2>
-      <div style="height:20px; width:20px; position: -webkit-sticky;position: sticky;top:0;backgroundcolor:gray">
+      <div style="height:20px; width:20px; position: -webkit-sticky;position: sticky;top:0;backgroundcolor:gray;float:right">
         ES2019
       </div>
+      <h1>ES2019</h2>
       <div>
         <b>New Feature</b>
       </div>
