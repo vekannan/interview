@@ -1,13 +1,8 @@
 <html>
   <head>
-    <style>
-      .es2019 {
-        position:relative;
-      }
-    </style>
   </head>
   <body>
-    <div class="es2019">
+    <div style="position:relative">
     <h1>ES2019</h2>
     <div>
       <b>New Feature</b>
