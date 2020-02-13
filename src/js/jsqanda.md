@@ -1,7 +1,7 @@
 
    <html>
    <head>
-      <link rel="stylesheet" type="text/css" media="all" href="jsq.css" />
+      <link rel="stylesheet" type="text/css" media="all" href="src/js/jsq.css" />
    </head>
    <body> <div style="position:relative;">
       <div class="es2019">
