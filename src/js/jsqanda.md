@@ -36,6 +36,7 @@
          <br/>
         The above flatMap code results in <code>[2,6,6,8,8,12]</code>
       </div>
+      <div>
       <h2> flat </h2>
       <br/>
       <code> 
@@ -48,4 +49,24 @@
       <code>const map = new Map([ ['foo', 'bar'], ['baz', 42] ]); <br/>
       const obj = Object.fromEntries(map); <br/>
       console.log(obj); // { foo: "bar", baz: 42 } <br/></code>
+      </div>
+      <div>
+         <h2> Optional Chaining </h2>
+         <code>const users = [
+  {
+   name: "Olagunju Gbolahan",
+   occupation: "Software Developer",
+   sayName(){
+    console.log(`my name is ${this.name}`);
+   },
+   address: { office: "New York" }
+  },
+  { name: "Olawaseyi Moses" },
+  { name: "Tunde Ednut" }
+];
+         users[0]?.sayName?.() 
+            instead of users[0] && users[0].sayName()
+         
+ </code>
+      </div>
     </div></body></html>
