@@ -69,4 +69,10 @@
          
  </code>
       </div>
+      <div>
+   <h2>String.trimStart and String.trimEnd</h2>
+   <code>let message = "     Welcome to LogRocket      ";
+message.trimStart(); // "Welcome to LogRocket      "
+      message.trimEnd(); // "Welcome to LogRocket";</code>
+   </div>
     </div></body></html>
