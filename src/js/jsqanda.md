@@ -3,8 +3,9 @@
    <head>
       <link rel="stylesheet" type="text/css" media="all" href="jsq.css" />
    </head>
+   (setq markdown-css-paths '("jsq.css"))
    <body> <div style="position:relative;">
-      <div style="float:right;backgroundcolor:green;color:black;position:fixed;top:20px;">
+      <div class="es2019">
         ES2019
       </div>
       <h1>ES2019</h2>
