@@ -144,5 +144,16 @@ message.trimStart(); // "Welcome to LogRocket      "
          others // { third: 3, fourth: 4, fifth: 5 }
       </code>
    </div>
+   <div>
+      <br/>
+      <h2>Async iteration </h2>
+      <div>
+         <code>
+            for await (const line of readLines(filePath)) {
+  console.log(line)
+}
+         </code>
+      </div>
+   </div>
    </div>
     </div></body></html>
