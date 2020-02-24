@@ -20,6 +20,16 @@ const p2 = new Promise((res, rej) => setTimeout(rej, 1000));
 Promise.allSettled([p1, p2]).then(data => console.log(data));
 </code>
 </div>
+<div>
+   <br/>
+   <h2>Nullish Coalescing Operator</h2>
+   <div>
+      This opperator checks only for null or undefined. Previously in this case y = x||500 y will be 500 if x is 0 or ''. Now it checks only for null or undefined. If there is other value it just assign the value
+      <code>
+         const y = x ?? 500;
+      </code>
+   </div>
+</div>
 </div>
       </div>
       </div>
