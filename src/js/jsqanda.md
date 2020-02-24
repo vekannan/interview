@@ -121,7 +121,7 @@ message.trimStart(); // "Welcome to LogRocket      "
       <br/>
    <h1>2018</h1>
    <br/>
-   <h2>Rest/Spread Properties</h2>
+   <h2>Rest/Spread Properties for objects</h2>
    <div>
       In ES6 Rest properties introduced for array . Now the same is been introduced for objects
       For Array it is 
