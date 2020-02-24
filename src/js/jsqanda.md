@@ -48,7 +48,7 @@ console.log(bigInt);
       <div class="es2019">
         ES2019
       </div>
-      <h1>ES2019</h2>
+      <h1>ES2019</h1>
       <div>
         <b>New Feature</b>
       </div>
@@ -116,5 +116,33 @@ console.log(bigInt);
    <code>let message = "     Welcome to LogRocket      ";
 message.trimStart(); // "Welcome to LogRocket      "
       message.trimEnd(); // "Welcome to LogRocket";</code>
+   </div>
+   <div>
+      <br/>
+   <h1>2019</h1>
+   <br/>
+   <h2>Rest/Spread Properties</h2>
+   <div>
+      In ES6 Rest properties introduced for array . Now the same is been introduced for objects
+      For Array it is 
+      <code>
+         const numbers = [1, 2, 3, 4, 5]
+         const [first, second, ...others] = numbers
+           console.log(second)
+            console.log(others)
+      </code>
+      <code>
+         const numbers = [1, 2, 3, 4, 5]
+         const sum = (a, b, c, d, e) => a + b + c + d + e
+         const sumOfNumbers = sum(...numbers)
+      </code>
+      The same introced in ES2018 for objects
+      <code>
+         const { first, second, ...others } = { first: 1, second: 2, third: 3, fourth: 4, fifth: 5 }
+         first // 1
+         second // 2
+         others // { third: 3, fourth: 4, fifth: 5 }
+      </code>
+   </div>
    </div>
     </div></body></html>
