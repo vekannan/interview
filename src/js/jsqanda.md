@@ -119,7 +119,7 @@ message.trimStart(); // "Welcome to LogRocket      "
    </div>
    <div>
       <br/>
-   <h1>2019</h1>
+   <h1>2018</h1>
    <br/>
    <h2>Rest/Spread Properties</h2>
    <div>
