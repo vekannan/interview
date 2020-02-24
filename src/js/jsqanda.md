@@ -82,10 +82,11 @@ console.log(bigInt);
       <br/>
       <code> 
        let  arr = [1, 2, [3, 4, [5, 6]]]; 
-        arr.fla();
+        arr.flat();
       </code>
       Is result in [1,2,3,4,5,6]
       <br/>
+      But if we pass arr.flat(1); the output will be [1, 2, 3, 4, Array(2)]. We can pass how deep we need to flat the map
       <h2> Object.formEntries </h2>
       <code>const map = new Map([ ['foo', 'bar'], ['baz', 42] ]); <br/>
       const obj = Object.fromEntries(map); <br/>
