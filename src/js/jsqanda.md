@@ -155,5 +155,22 @@ message.trimStart(); // "Welcome to LogRocket      "
          </code>
       </div>
    </div>
+   <div>
+      <br/>
+      <h2>Promise.prototype.finally()</h2>
+      <div>
+         When a promise is fulfilled, successfully it calls the then() methods, one after another.
+
+If something fails during this, the then() methods are jumped and the catch() method is executed.
+
+finally() allow you to run some code regardless of the successful or not successful execution of the promise
+         <code>
+           fetch('file.json')
+  .then(data => data.json())
+  .catch(error => console.error(error))
+  .finally(() => console.log('finished'))
+         </code>
+      </div>
+   </div>
    </div>
     </div></body></html>
