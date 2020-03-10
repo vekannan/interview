@@ -7,5 +7,6 @@
 <a href="/src/css/cssqanda.md"> CSS Questions</a> <br>
 <a href="/src/accessibility/accessibilityqanda.md"> Accessibility questions</a> <br>
 <a href="/src/performance/performanceqanda.md"> Performance questions </a> <br>
+<a href="/src/projectSetup/projectSetup.md">Project Setup </a> <br>
 </body>
 </html>
