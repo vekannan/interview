@@ -7,11 +7,11 @@ use Node 8.12.0
 Though we are using react 16.8 we are not using React hooks this time .It is in our pipeline
 </li>
 <li>
-We devoloped our application with responsive web design using Bootstrap and LESS. 
+We developed our application with responsive web design using Bootstrap and LESS. 
   <ol>
     <li>
       what is LESS: Less is a dynamic preprocessor style sheet language that can be compiled into Cascading Style Sheets and 
-      run on the client side or server side
+      run on the client side or server side</br>
       why LESS : it allow variables, functions, mixins, Nested Rules, Operations, Importing other less files,
     </li>
   </ol>
