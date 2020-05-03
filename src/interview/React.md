@@ -12,9 +12,9 @@
   The life cycle phases of React invloves below steps
   <ol>
   <li>Initialization</li>
-  </li>Mounting</li>
-  </li>Updating</li>
-  </li>Unmounting</li>
+  <li>Mounting</li>
+  <li>Updating</li>
+  <li>Unmounting</li>
   </ol>
   </section>
   <section>
