@@ -9,6 +9,6 @@
 <a href="/src/performance/performanceqanda.md"> Performance questions </a> <br>
 <a href="/src/projectSetup/projectSetup.md">Project Setup </a> <br>
 <a href="/src/interview/interviewQuestions.md">Interview Questions </a> <br>
-<a href="/src/interview/react.md">React</a> <br>
+<a href="/src/interview/React.md">React</a> <br>
 </body>
 </html>
