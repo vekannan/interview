@@ -17,7 +17,7 @@
   <li>Unmounting</li>
   </ol>
   </section>
-  <section>
+  <section><article>
   <h3>Initialisation</h3>
   This is the place where the component defines the props and initialize the state (state of the component and not reduxt state)
   <br><code>
@@ -31,5 +31,11 @@
         this.state = { date : new Date() };  
     } 
   } 
-  </code>
+  </code></article>
+</section>
+<section>
+<h3>mounting phase</h3>
+<article>
+Mounting phase has three methods. ComponentWillRender, render, ComponentDidRender. Reneder method actually holds the HTML to display. The other two methods executes before and after render method. These method will be running only one in component life cycle phase
+</article>
 </section>
