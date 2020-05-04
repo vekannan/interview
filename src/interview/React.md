@@ -1,6 +1,6 @@
 <h1>React</h1></br>
 
-<h2>React Life cycle of components </h2>
+<h2>Life cycle of a React component</h2>
   <section>
 	  <article>
 		  <figure>
