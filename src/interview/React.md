@@ -36,6 +36,6 @@
 <section>
 <h3>mounting phase</h3>
 <article>
-Mounting phase has three methods. ComponentWillRender, render, ComponentDidRender. Reneder method actually holds the HTML to display. The other two methods executes before and after render method. These method will be running only one in component life cycle phase
+Mounting phase has three methods. ComponentWillMount, render, ComponentDidMount. Reneder method actually holds the HTML to display. The other two methods executes before and after render method. These method will be running only one in component life cycle phase
 </article>
 </section>
