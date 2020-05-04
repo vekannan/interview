@@ -22,8 +22,7 @@
   This is the place where the component defines the props and initialize the state (state of the component and not reduxt state)
   <br><code>
   class ClassCpomponent extends React.Component { 
-    constructor(props) 
-    {    
+    constructor(props) {    
         // Calling the constructor of  
         // Parent Class React.Component 
         super(props);  
