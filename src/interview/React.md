@@ -20,7 +20,7 @@
   <section>
   <h3>Initialisation</h3>
   This is the place where the component defines the props and initialize the state (state of the component and not reduxt state)
-  <code>
+  <br><code>
   class ClassCpomponent extends React.Component { 
     constructor(props) 
     {    
