@@ -36,6 +36,9 @@
 <section>
 <h3>mounting phase</h3>
 <article>
-Mounting phase has three methods. ComponentWillMount, render, ComponentDidMount. Reneder method actually holds the HTML to display. The other two methods executes before and after render method. These method will be running only one in component life cycle phase
-</article>
+Mounting phase has three methods. ComponentWillMount, render, ComponentDidMount. Reneder method actually holds the HTML to display. The other two methods executes before and after render method.
+<h5>ComponentWillMount</h5>This method is depricated. We can use until React 17.1 
+Render: this method actually renders the component using props and state
+
+</articleo
 </section>
