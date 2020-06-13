@@ -17,7 +17,12 @@
   <li>Unmounting</li>
   </ol>
   </section>
-  
+  <section>
+	Detailed scope of each life cycle method is depicted in below given picture
+	<figure>
+		<img src="/src/img/DetailedLifecycle.png" />
+	</figure>
+  </section>
   <section><article>
   <h3>Initialisation</h3>
   This is the place where the component defines the props and initialize the state (state of the component and not reduxt state)
