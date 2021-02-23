@@ -50,3 +50,40 @@ Mounting phase has three methods.Constructor,getDerivedStateFromProps, render, C
 </article>
 
 </section>
+<section>
+<h3>React Hooks</h3>
+<h4>useState</h4>
+import React, {useState} from 'react'
+	
+Function App() {
+const [age, setAge] = useState(1);
+return(<div>{age}</div>)
+}
+</section>
+<section>
+<h4>useSelector</h4>
+import React, {useState,useEffect} from 'react'
+import {useSelector} from react-redux
+	
+Function App() {
+const [age, setAge] = useState(1);
+useEffect(() => {
+//api call
+}, []);
+const ageProps = useSelector(state => state.ageProps);
+return(<div>{age}</div>)
+}
+</section>
+<section>
+<h4>useDispatch</h4>
+import React, {useState} from 'react'
+import {useDispatch} from 'reat-redux'
+Function App() {
+const dispatch = useDispatch()
+const [age, setAge] = useState(1);
+useEffect(() => {
+dispatch(actionFetch)
+}, []);
+return(<div>{age}</div>)
+}
+</section>
