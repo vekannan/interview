@@ -11,4 +11,12 @@
 10. what is event loop
 11. Why async await why not promise alone
 12. How do you increase the performance of a page. What is serverside rendering in react and client side rendering . Progressinve rendering
+13. Explain react custom hooks
+14. REdux lifecycle
+15. Dynamic imports using suspencse 
+16. Evenhandling in react vs html
+17. reaxt context vs redux 
+18. optimize react
+19. cache in react
+20. 
 
