@@ -64,6 +64,41 @@ Mounting phase has three methods.Constructor,getDerivedStateFromProps, render, C
 
 </section>
 <section>
+<h4>useEffect, useSate and useMemo</h4>
+	
+```
+mport React, {useState, useEffect} from 'react'
+
+const DoubleCotent = React.memo((props) => {
+    return <div>{props.val}</div>
+});
+
+const Button = () =>{
+    const [count, setCount] = useState(0);
+    const [effectCount, setEffectCount] = useState(0)
+
+    const updateCount = () => {
+        setCount(count + 1);
+    }
+
+    useEffect(()=>{
+        setEffectCount(count*2);
+    },[count])
+
+    return (
+        <div>
+            <div>{count}</div>
+            <DoubleCotent val={effectCount}/>
+            <button onClick={updateCount}>click me</button>
+        </div>
+    );
+}
+
+export default Button;
+```
+
+</section>
+<section>
 <h4>useSelector</h4>
 	
 ```
