@@ -1,43 +1,42 @@
-
-   <html>
+<html>
    <head>
       <link rel="stylesheet" type="text/css" media="all" href="src/js/jsq.css" />
    </head>
    <body> 
       <div>
-         <div class="es2020">
-        ES2020
-      </div>
+      <span class="es2020">
+         ES2020
+      </span>
       <h1>ES2020</h2>
       <div></br>
 <h2>allSettled</h2>
 <div>
-<code>
+   
+```javascript
 const p1 = new Promise((res, rej) => setTimeout(res, 1000));
 
 const p2 = new Promise((res, rej) => setTimeout(rej, 1000));
 
 Promise.allSettled([p1, p2]).then(data => console.log(data));
-</code>
+```
+
 </div>
 <div>
-   <br/>
    <h2>Nullish Coalescing Operator</h2>
    <div>
       This opperator checks only for null or undefined. Previously in this case y = x||500 y will be 500 if x is 0 or ''. Now it checks only for null or undefined. If there is other value it just assign the value
-      <code>
-         const y = x ?? 500;
-      </code>
+         > const y = x ?? 500;
    </div>
 </div>
 <div>
-   <br/>
    <h2>BigInt</h2>
    <div>
-      <code>
-         const bigInt = BigInt('2222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222');
+
+```javascript
+const bigInt = BigInt('2222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222');
 console.log(bigInt);
-      </code>
+```
+     
    </div>
 </div>
 </div>
@@ -55,46 +54,58 @@ console.log(bigInt);
       <h2> Flat Map </h2>
       <div>
         Regular Map: <br/>
-        <code>
-        const arr3 = [[1,3],[3,4],[4,6]]
-        console.log(JSON.stringify(
-          arr3.map(group1 => 
-            group1.map(group2 => 
-              group2 *2))))
-        </code>
-       <br/>
-         The above code results in <code>[[2,6],[6,8],[8,12]]</code>
+
+```javascript
+const arr3 = [[1,3],[3,4],[4,6]]
+console.log(JSON.stringify(
+ arr3.map(group1 => 
+   group1.map(group2 => 
+     group2 *2))))
+```
+The above code results in 
+         > [[2,6],[6,8],[8,12]]
         <br/>
         FlatMap: 
-        <br/>
-        <code>
-          const arr1 = [[1,3],[3,4],[4,6]]
-          console.log(JSON.stringify(
-            arr1.flatMap(group1 => 
-              group1.map(group2 => 
-                group2 *2))))
-        </code>
-         <br/>
-        The above flatMap code results in <code>[2,6,6,8,8,12]</code>
+
+```javascript
+ const arr1 = [[1,3],[3,4],[4,6]]
+ console.log(JSON.stringify(
+   arr1.flatMap(group1 => 
+     group1.map(group2 => 
+       group2 *2))))
+```
+  
+The above flatMap code results in  
+        > [2,6,6,8,8,12]
       </div>
       <div>
       <h2> flat </h2>
       <br/>
-      <code> 
-       let  arr = [1, 2, [3, 4, [5, 6]]]; 
-        arr.flat();
-      </code>
-      Is result in [1,2,3,4,5,6]
-      <br/>
-      But if we pass arr.flat(1); the output will be [1, 2, 3, 4, Array(2)]. We can pass how deep we need to flat the map
-      <h2> Object.formEntries </h2>
-      <code>const map = new Map([ ['foo', 'bar'], ['baz', 42] ]); <br/>
-      const obj = Object.fromEntries(map); <br/>
-      console.log(obj); // { foo: "bar", baz: 42 } <br/></code>
+
+```javascript
+let  arr = [1, 2, [3, 4, [5, 6]]]; 
+arr.flat();
+```
+Is result in 
+      > [1,2,3,4,5,6]
+<br/>
+But if we pass arr.flat(1); the output will be [1, 2, 3, 4, Array(2)]. We can pass how deep we need to flat the map
+<h2> Object.formEntries </h2>
+      
+      ```javascript
+
+      const map = new Map([ ['foo', 'bar'], ['baz', 42] ]); 
+      const obj = Object.fromEntries(map); 
+      console.log(obj); // { foo: "bar", baz: 42 } 
+      ```
+      
+      
       </div>
       <div>
          <h2> Optional Chaining </h2>
-         <code>const users = [
+
+         ```javascript
+         const users = [
   {
    name: "Olagunju Gbolahan",
    occupation: "Software Developer",
@@ -109,13 +120,17 @@ console.log(bigInt);
          users[0]?.sayName?.() 
             instead of users[0] && users[0].sayName()
          
- </code>
+ ```
+
       </div>
       <div>
    <h2>String.trimStart and String.trimEnd</h2>
-   <code>let message = "     Welcome to LogRocket      ";
+   ```javascript 
+   let message = "     Welcome to LogRocket      ";
 message.trimStart(); // "Welcome to LogRocket      "
-      message.trimEnd(); // "Welcome to LogRocket";</code>
+      message.trimEnd(); // "Welcome to LogRocket";
+  ```
+
    </div>
    <div>
       <br/>
@@ -125,34 +140,39 @@ message.trimStart(); // "Welcome to LogRocket      "
    <div>
       In ES6 Rest properties introduced for array . Now the same is been introduced for objects
       For Array it is 
-      <code>
+
+      ```javascript
          const numbers = [1, 2, 3, 4, 5]
          const [first, second, ...others] = numbers
            console.log(second)
             console.log(others)
-      </code>
-      <code>
+
          const numbers = [1, 2, 3, 4, 5]
          const sum = (a, b, c, d, e) => a + b + c + d + e
          const sumOfNumbers = sum(...numbers)
-      </code>
+      ```
+
       The same introced in ES2018 for objects
-      <code>
+
+     ```javascript
          const { first, second, ...others } = { first: 1, second: 2, third: 3, fourth: 4, fifth: 5 }
          first // 1
          second // 2
          others // { third: 3, fourth: 4, fifth: 5 }
-      </code>
+      ```
+
    </div>
    <div>
       <br/>
       <h2>Async iteration </h2>
       <div>
-         <code>
+        
+         ```javascript
             for await (const line of readLines(filePath)) {
   console.log(line)
 }
-         </code>
+         ```
+
       </div>
    </div>
    <div>
@@ -164,12 +184,13 @@ message.trimStart(); // "Welcome to LogRocket      "
 If something fails during this, the then() methods are jumped and the catch() method is executed.
 
 finally() allow you to run some code regardless of the successful or not successful execution of the promise
-         <code>
+         ```javascript
            fetch('file.json')
   .then(data => data.json())
   .catch(error => console.error(error))
   .finally(() => console.log('finished'))
-         </code>
+         ```
+
       </div>
    </div>
    </div>
