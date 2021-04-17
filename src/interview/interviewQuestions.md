@@ -18,5 +18,15 @@
 17. reaxt context vs redux 
 18. optimize react
 19. cache in react
-20. 
+US Bank Interview Question:
+1. Even loop . How frequent does browser looks for stack goes empty to push queued task to be pushed to stack
+2. custom react higher order component
+3. custom hooks. What is to be in considration while using custiom hooks
+4. How do you pass the value from one component to other component (publish and subscribe method) pubsub
+5. If you want to use new technology (View, handlebar ..) what are all the factor you will consifder and how you mesure
+6. how would you optimize your react application
+7. how would you load the data to your react application 
+8. custom hooks
+9. 
+10. 
 
