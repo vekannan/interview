@@ -27,6 +27,6 @@ US Bank Interview Question:
 6. how would you optimize your react application
 7. how would you load the data to your react application 
 8. custom hooks
-9. 
+9. How could you include react application in other framework like handlebar, angular ..
 10. 
 
