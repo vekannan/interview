@@ -18,6 +18,7 @@
 17. reaxt context vs redux 
 18. optimize react
 19. cache in react
+20. 
 US Bank Interview Question:
 1. Even loop . How frequent does browser looks for stack goes empty to push queued task to be pushed to stack
 2. custom react higher order component
