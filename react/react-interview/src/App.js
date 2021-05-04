@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import useFormInput from './useFormInput'
 
 function App() {
+  const [firstName, bindFirstName, resetFirstName] = useFormInput('');
+  const [lastName, bindLastName, resetLastName] = useFormInput('');
+  const submitFormHandler = e => {
+    console.log('submit form')
+    e.preventDefault();
+    alert(`FirstName: ${firstName} \n LastName: ${lastName}`);
+    resetFirstName();
+    resetLastName();
+  }
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+     <form onSubmit={submitFormHandler}>
+       <div>
+        <label> First Name : </label>
+        <input type="tex" {...bindFirstName}/ >
+       </div>
+       <div>
+        <label> Last Name : </label>
+        <input type="text"  {...bindLastName}/>
+       </div>
+       <div>
+         <button> Submit </button>
+       </div>
+     </form>
     </div>
   );
 }
