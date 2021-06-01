@@ -1,0 +1,15 @@
+Optimize react app :
+1. Using functional components or using React.PureComponents. Functional component avoid creating instatnce thus minification bundle size reduced . 
+Also class components increase the state lifecycle . React purecomponents uses shallow comparision so need to be more causious
+
+2. webPack Optimizations
+  a. using SplitPlugin (from webpack4 ) or chunkPlugins (before webpack 4 ) it splits vendor specific files and our code in two differnet chunks. 
+  using split chunks we could use dynamix import chunks , reduce redundent code 
+  b. Dependency optimization plugin like moment-locale-optimization plugin. 
+  If we don't have internationalization we coiuld avoid unused locale files 
+  
+3. React.Fragments avoind using extra node for child elements
+4. Use of inline functions inside render method. 
+So that on every render it will avoind creating new instance of that function followed by incrasing garbge collections.
+
+  
