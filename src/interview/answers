@@ -11,5 +11,11 @@ Also class components increase the state lifecycle . React purecomponents uses s
 3. React.Fragments avoind using extra node for child elements
 4. Use of inline functions inside render method. 
 So that on every render it will avoind creating new instance of that function followed by incrasing garbge collections.
+5. Usage of reselect in redux for caching purpose
+6. Memoize react component
+7. using CDN usage to get the static resource from nearest edge servers
+8. Using web pack bundle analyzer we could analise the bundle size and which module eating the size
+9. Serverside rendering for server intensive operation
+10.Gip the bundle
 
   
