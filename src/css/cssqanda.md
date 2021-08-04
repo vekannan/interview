@@ -36,4 +36,4 @@ In the above example the total dimention of .my-box is 200px for the content + 4
 }
 
 ```
-In the above example the total with remains 200 only 
+In the above example the total width remains 200 only 
