@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <title>Practice HTML and CSS</title>
+        <style>
+            .container {
+                font-size: medium;
+                color: black;
+                border: 1px dashed black;
+                padding: 10px;
+            }
+
+            .container div {
+                border: 1px solid black;
+                margin: 5px;
+            }
+
+            .container + ol {
+                border: 1px solid olive;
+            }
+
+            .container > ol {
+                border: 1px solid indigo;
+            }
+
+            .container1 > .div2{
+                color: blueviolet;
+                background-color: red;
+            }
+
+            .container1 .div2 {
+               font-size: x-large;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="container1">
+                <div class="div1">
+                    container 1 element 1
+                </div>
+                <div class="div2">
+                    container 1 element 2
+                    <div class="div2">container 1 element 2 child</div>
+                </div>
+                <div class="div3">
+                    container 1 element 3
+                </div>
+            </div>
+            <div class="div2">element 2 sibling</div>
+            <div class="container2">
+                <div class="div1">
+                    container 2 element 1
+                </div>
+                <div class="div2">
+                    container 2 element 2
+                </div>
+                <div class="div3">
+                    container 2 element 3
+                </div>
+            </div>
+            <ol class="siblintcontainer1">
+                <li class="div1">
+                    container 1 element 1
+                </li>
+                <li class="div2">
+                    container 1 element 2
+                </li>
+                <li class="div3">
+                    container 1 element 3
+                </li>
+            </ol>
+        </div>
+        <ol class="siblintcontainer1">
+            <li class="div1">
+                container 1 element 1
+            </li>
+            <li class="div2">
+                container 1 element 2
+            </li>
+            <li class="div3">
+                container 1 element 3
+            </li>
+        </ol>
+    </body>
+</html>
